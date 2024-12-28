@@ -5,9 +5,9 @@ import (
 	"testing"
 
 	"github.com/loft-sh/log"
-	examplev1 "github.com/loft-sh/vcluster-sdk/e2e/test_plugin/apis/v1"
 	"github.com/loft-sh/vcluster/pkg/scheme"
 	"github.com/loft-sh/vcluster/test/framework"
+	examplev1 "github.com/nirvati/vcluster-sdk/e2e/test_plugin/apis/v1"
 	ginkgo "github.com/onsi/ginkgo/v2"
 	"github.com/onsi/gomega"
 	_ "k8s.io/client-go/plugin/pkg/client/auth/gcp"
@@ -16,7 +16,7 @@ import (
 	_ "k8s.io/client-go/plugin/pkg/client/auth"
 
 	// Register tests
-	_ "github.com/loft-sh/vcluster-sdk/e2e/plugin"
+	_ "github.com/nirvati/vcluster-sdk/e2e/plugin"
 )
 
 // TestRunE2ETests checks configuration parameters (specified through flags) and then runs

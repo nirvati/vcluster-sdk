@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/loft-sh/vcluster-sdk/plugin"
 	"github.com/loft-sh/vcluster/pkg/syncer/synccontext"
 	synctypes "github.com/loft-sh/vcluster/pkg/syncer/types"
+	"github.com/nirvati/vcluster-sdk/plugin"
 	"github.com/pkg/errors"
 	corev1 "k8s.io/api/core/v1"
 	kerrors "k8s.io/apimachinery/pkg/api/errors"

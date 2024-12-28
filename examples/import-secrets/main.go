@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/loft-sh/vcluster-import-secrets/syncers"
-	"github.com/loft-sh/vcluster-sdk/plugin"
+	"github.com/nirvati/vcluster-sdk/plugin"
 )
 
 func main() {

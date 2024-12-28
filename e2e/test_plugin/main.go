@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"os"
 
-	examplev1 "github.com/loft-sh/vcluster-sdk/e2e/test_plugin/apis/v1"
-	"github.com/loft-sh/vcluster-sdk/e2e/test_plugin/syncers"
-	"github.com/loft-sh/vcluster-sdk/plugin"
 	"github.com/loft-sh/vcluster/pkg/mappings/resources"
 	"github.com/loft-sh/vcluster/pkg/scheme"
+	examplev1 "github.com/nirvati/vcluster-sdk/e2e/test_plugin/apis/v1"
+	"github.com/nirvati/vcluster-sdk/e2e/test_plugin/syncers"
+	"github.com/nirvati/vcluster-sdk/plugin"
 	"k8s.io/klog/v2"
 )
 

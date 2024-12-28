@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/loft-sh/vcluster-pod-hooks/hooks"
-	"github.com/loft-sh/vcluster-sdk/plugin"
+	"github.com/nirvati/vcluster-sdk/plugin"
 )
 
 func main() {

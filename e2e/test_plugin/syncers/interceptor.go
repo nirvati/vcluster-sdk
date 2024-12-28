@@ -3,7 +3,7 @@ package syncers
 import (
 	"net/http"
 
-	"github.com/loft-sh/vcluster-sdk/plugin"
+	"github.com/nirvati/vcluster-sdk/plugin"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"

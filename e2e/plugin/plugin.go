@@ -3,9 +3,9 @@ package plugin
 import (
 	"time"
 
-	examplev1 "github.com/loft-sh/vcluster-sdk/e2e/test_plugin/apis/v1"
 	"github.com/loft-sh/vcluster/pkg/util/translate"
 	"github.com/loft-sh/vcluster/test/framework"
+	examplev1 "github.com/nirvati/vcluster-sdk/e2e/test_plugin/apis/v1"
 	"github.com/onsi/ginkgo/v2"
 	"github.com/onsi/gomega"
 	appsv1 "k8s.io/api/apps/v1"

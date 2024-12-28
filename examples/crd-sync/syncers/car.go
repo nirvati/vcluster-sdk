@@ -4,9 +4,9 @@ import (
 	"context"
 
 	examplev1 "github.com/loft-sh/vcluster-example/apis/v1"
-	synccontext "github.com/loft-sh/vcluster/pkg/controllers/syncer/context"
 	"github.com/loft-sh/vcluster/pkg/controllers/syncer/translator"
 	"github.com/loft-sh/vcluster/pkg/scheme"
+	synccontext "github.com/loft-sh/vcluster/pkg/syncer/synccontext"
 	synctypes "github.com/loft-sh/vcluster/pkg/types"
 	"github.com/loft-sh/vcluster/pkg/util/translate"
 	"k8s.io/apimachinery/pkg/api/equality"

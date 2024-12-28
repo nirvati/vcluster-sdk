@@ -4,7 +4,6 @@ import (
 	_ "embed"
 	"fmt"
 
-	examplev1 "github.com/loft-sh/vcluster-sdk/e2e/test_plugin/apis/v1"
 	"github.com/loft-sh/vcluster/pkg/mappings/generic"
 	"github.com/loft-sh/vcluster/pkg/patcher"
 	"github.com/loft-sh/vcluster/pkg/syncer"
@@ -13,6 +12,7 @@ import (
 	syncertypes "github.com/loft-sh/vcluster/pkg/syncer/types"
 	"github.com/loft-sh/vcluster/pkg/util"
 	"github.com/loft-sh/vcluster/pkg/util/translate"
+	examplev1 "github.com/nirvati/vcluster-sdk/e2e/test_plugin/apis/v1"
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/apimachinery/pkg/util/errors"
 	ctrl "sigs.k8s.io/controller-runtime"
