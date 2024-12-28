@@ -13,7 +13,7 @@ To use the plugin, create a new vCluster with the `plugin.yaml`:
 
 ```bash
 # Use public plugin.yaml
-vcluster create vcluster -n vcluster -f https://raw.githubusercontent.com/loft-sh/vcluster-sdk/main/examples/import-secrets/plugin.yaml
+vcluster create vcluster -n vcluster -f https://raw.githubusercontent.com/nirvati/vcluster-sdk/main/examples/import-secrets/plugin.yaml
 ```
 
 This will create a new vCluster with the plugin installed. After that, wait for

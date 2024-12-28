@@ -4,7 +4,7 @@ go 1.23.0
 
 require (
 	github.com/loft-sh/vcluster v0.20.0
-	github.com/loft-sh/vcluster-sdk v0.5.2
+	github.com/nirvati/vcluster-sdk v0.5.2
 	k8s.io/klog/v2 v2.120.1
 )
 

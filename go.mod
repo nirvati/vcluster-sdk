@@ -1,4 +1,4 @@
-module github.com/loft-sh/vcluster-sdk
+module github.com/nirvati/vcluster-sdk
 
 go 1.23.2
 

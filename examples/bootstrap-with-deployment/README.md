@@ -11,7 +11,7 @@ To use the plugin, create a new vCluster with the `plugin.yaml`:
 
 ```bash
 # Use public plugin.yaml
-vcluster create my-vcluster -n my-vcluster -f https://raw.githubusercontent.com/loft-sh/vcluster-sdk/main/examples/bootstrap-with-deployment/plugin.yaml
+vcluster create my-vcluster -n my-vcluster -f https://raw.githubusercontent.com/nirvati/vcluster-sdk/main/examples/bootstrap-with-deployment/plugin.yaml
 ```
 
 After that, wait for vCluster to start up and check:

@@ -5,7 +5,7 @@ go 1.23.0
 require (
 	github.com/ghodss/yaml v1.0.0
 	github.com/loft-sh/vcluster v0.20.0
-	github.com/loft-sh/vcluster-sdk v0.5.2
+	github.com/nirvati/vcluster-sdk v0.5.2
 	k8s.io/apiextensions-apiserver v0.30.2
 	k8s.io/apimachinery v0.30.2
 	sigs.k8s.io/controller-runtime v0.18.4
