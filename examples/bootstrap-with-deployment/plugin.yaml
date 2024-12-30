@@ -1,6 +1,0 @@
-# Plugin Definition below. This is essentially a valid helm values file that will be merged
-# with the other vcluster values during vcluster create or helm install.
-plugins:
-  bootstrap-with-deployment:
-    image: ghcr.io/loft-sh/vcluster-example-bootstrap-with-deployment:v4
-    imagePullPolicy: IfNotPresent
